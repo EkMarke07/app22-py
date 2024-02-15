@@ -5,7 +5,7 @@ import pandas as pd
 
 st.title(" :bar_chart: Superstore Sales Performance: Analyzing Superstore Sales Data")
 
-df = pd.read_csv("C://Users/Nandu//Desktop//Streamlit Project//Sample - Superstore.csv")
+df = pd.read_csv("Sample - Superstore.csv")
 
 col1, col2 = st.columns((2))
 df["Order Date"] = pd.to_datetime(df["Order Date"])
